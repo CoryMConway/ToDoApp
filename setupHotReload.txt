@@ -1,0 +1,4 @@
+# Go to kivyMD github and put the hot_reload_view in env/Lib/site-packages/kivymd/utils
+# pip install pygame
+# pip install kivy
+# pip install watchdog
