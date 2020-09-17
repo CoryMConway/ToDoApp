@@ -1,0 +1,17 @@
+#:include kv/mainPage.kv
+#:include kv/tasksScreen.kv
+#:include kv/calendarScreen.kv
+
+GridLayout:
+	cols: 1
+	ScreenManager:
+		id: screen_manager
+		MainPageScreen:
+			name: "MainPageScreen"
+			id: MainPageScreen
+		TasksScreen:
+			name: "TasksScreen"
+			id: TasksScreen
+        CalendarScreen:
+            name: "CalendarScreen"
+            id: CalendarScreen
